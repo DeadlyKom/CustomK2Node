@@ -9,6 +9,10 @@ public class CustomK2NodeEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "CustomK2Node" } );
-	}
+		ExtraModuleNames.AddRange(
+            new string[] {
+                "CustomK2Node",
+                "CustomK2NodeEditor"
+            });
+    }
 }

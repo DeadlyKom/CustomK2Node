@@ -9,6 +9,9 @@ public class CustomK2NodeTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "CustomK2Node" } );
+		ExtraModuleNames.AddRange(
+            new string[] {
+                "CustomK2Node"
+            });
 	}
 }
