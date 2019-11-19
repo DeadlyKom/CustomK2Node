@@ -14,6 +14,8 @@ public class CustomK2NodeEditor : ModuleRules
                 "CoreUObject",
                 "Engine",
                 "InputCore",
+                "UnrealEd",
+                "GraphEditor",
                 "BlueprintGraph",
                 "KismetCompiler"
             });
